@@ -1,0 +1,50 @@
+body {
+    color: whitesmoke;
+    background: black;
+    margin: 8px;
+    padding-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px royalblue;
+    padding: 8px;
+    font-size: 39px;
+    color: rgb(25, 218, 231);
+}
+
+.chamada{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    background: rgb(10, 157, 194);
+}
+
+h1{
+    font-size: 36px;
+}
+
+img{
+    height: 200px;
+}
+
+.Recomendações{
+    display: flex;
+    overflow-x: auto;
+    gap: 13px;
+}
+
+.videos{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 50px;
+}
+
+.Recomendações img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Recomendações img:hover {
+    opacity: 1.0;
+    border: 5px aquamarine;
+}
